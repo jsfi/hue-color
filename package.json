@@ -1,0 +1,36 @@
+{
+  "name": "hue-color",
+  "description": "Get the color coordinates from rgb.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jsfi/hue-color#readme",
+  "author": {
+    "name": "Martin Sachse",
+    "email": "martin.sachse@gmail.com",
+    "url": "http://jsfi.io"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/eslint/bin/eslint.js index.js lib/*.js && node node_modules/mocha/bin/mocha test/**/*_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jsfi/hue-color.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jsfi/hue-color/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "eslint": "^1.9.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.3.3",
+    "points-distance": "github:jsfi/points-distance"
+  },
+  "dependencies": {
+    "nearest-point-inside-triangle": "github:jsfi/nearest-point-inside-triangle"
+  }
+}
