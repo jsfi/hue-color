@@ -11,9 +11,9 @@ var colors = trs.map(function(tr) {
     return {
         name: tds[1].innerText,
         rgb: tds[2].innerText.replace(/[\(\)]/g, '').split(',').map(function(num) { return parseInt(num); }),
-        a: tds[3].innerText.replace(/[\[\]]/g, '').split(',').map(parseFloat),
-        b: tds[4].innerText.replace(/[\[\]]/g, '').split(',').map(parseFloat),
-        c: tds[5].innerText.replace(/[\[\]]/g, '').split(',').map(parseFloat)
+        A: tds[3].innerText.replace(/[\[\]]/g, '').split(',').map(parseFloat),
+        B: tds[4].innerText.replace(/[\[\]]/g, '').split(',').map(parseFloat),
+        C: tds[5].innerText.replace(/[\[\]]/g, '').split(',').map(parseFloat)
     }
 });
 

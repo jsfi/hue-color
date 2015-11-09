@@ -3,7 +3,7 @@
 const expect = require('expect.js');
 
 const colors = require('./colors');
-const gamuts = ['a', 'b', 'c'];
+const gamuts = ['A', 'B', 'C'];
 
 let hueColor = require('../');
 
@@ -15,7 +15,7 @@ describe('colors', function() {
     colors.forEach(color => {
         describe(color.name, function() {
             gamuts.forEach(gamut => {
-                it('gamut ' + gamut, function () {
+                it('Gamut ' + gamut, function () {
                     let xy = hueColor(color.rgb, gamut);
                     let dx = Math.abs(xy[0] - color[gamut][0]);
                     let dy = Math.abs(xy[1] - color[gamut][1]);

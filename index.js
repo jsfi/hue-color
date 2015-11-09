@@ -25,19 +25,19 @@ const gZ = 0.072310;
 const bZ = 0.986039;
 const gamutTypes = {
     //Hue LightStrips, Hue Living Colors
-    a: [
+    A: [
         [0.704, 0.296],
         [0.2151, 0.7106],
         [0.138, 0.08]
     ],
     //Hue bulb, Hue Spot, Color Light Module
-    b: [
+    B: [
         [0.675, 0.322],
         [0.409, 0.518],
         [0.167, 0.04]
     ],
     //Hue Go, Hue LightStrips Plus
-    c: [
+    C: [
         [0.675, 0.322],
         [0.2151, 0.7106],
         [0.167, 0.04]
