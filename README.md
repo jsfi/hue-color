@@ -1,6 +1,6 @@
 # hue-color
 
-> Get the color coordinates from rgb.
+> Get the x and y coordinates of a color in CIE color space from rgb.
 
 ## Install
 
@@ -35,5 +35,10 @@ let xy = require('hue-color')(
     [0, 255, 0], //rgb
     'A'
 );
+
 // xy = [0.2151, 0.7106]
 ```
+
+## Next steps
+
+Check accuracy of example values: http://www.developers.meethue.com/documentation/hue-xy-values

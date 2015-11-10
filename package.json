@@ -1,6 +1,6 @@
 {
   "name": "hue-color",
-  "description": "Get the color coordinates from rgb.",
+  "description": "Get the x and y coordinates of a color in CIE color space from rgb.",
   "version": "0.1.0",
   "homepage": "https://github.com/jsfi/hue-color#readme",
   "author": {
